@@ -27,7 +27,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "NODE_ENV=production node app.js",
+    "start": "set NODE_ENV=production && node app.js",
     "dev": "NODE_ENV=dev DEBUG=psitransfer:* nodemon -i app -i dist -i data app.js",
     "debug": "node --inspect app.js"
   },
